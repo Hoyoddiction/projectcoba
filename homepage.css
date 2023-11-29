@@ -371,6 +371,15 @@
     grid-column-end: 34;
     grid-row-start: 239;
 }
+.contractus-containe{
+    grid-row-start: 160;
+    grid-column-start: 48;
+    grid-column-end: 114
+}
+.contractus-containe
+{
+    background:linear-gradient(90deg,darkolivegreen,rgb(214, 240, 171))
+}
 .contactus{
     position:relative;
     width:100%;
@@ -382,11 +391,11 @@
     align-items: center;
     font-size: 32px;
 }
-.contactus .conntactus-text h2{
+.contactus .conntactus-text h4{
     color: white;
     font-weight: 500;
 }
-.x{
+.form{
     grid-area: form;
 }
 .info{
@@ -406,16 +415,16 @@
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 5fr 4fr;
     grid-template-areas: 
-    "x info"
-    "x google";
+    "form info"
+    "form google";
     gap: 20px;
-    margin-top: 25px;
+    margin-top: 20px;
 }
-.contact h3{
+.contact h5{
    color: darkgreen; 
-   font-weight: 600;
-   font-size: 24px;
-   margin-bottom: 5px;
+   font-weight: 500;
+   font-size: 1.4em;
+   margin-bottom: 10px;
 }
 
 .form-box{
@@ -441,24 +450,24 @@
 }
 .boxinput input{
     padding: 10px;
-    font-size: 15px;
+    font-size: 1.1em;
     outline: none;
     border: 1px solid black;
 }
 .boxinput textarea{
     padding: 10px;
-    font-size: 15px;
+    font-size: 1.1em;
     outline: none;
     border: 1px solid black;
     resize: none;
-    min-height: 250px;
+    min-height: 220px;
     margin-bottom: 10px;
 }
 .boxinput input[type="submit"]{
     background-color:rgb(214, 240, 171) ;
     color: white;
     border: none;
-    font-size: 15px;
+    font-size: 1.1em;
     max-width: 150px;
     font-weight: 500;
     cursor: pointer;
@@ -470,7 +479,7 @@
 .info{
     background: darkolivegreen;
 }
-.info h3{
+.info h5{
     color: white;
 }
 .info .boxinfo{
@@ -478,7 +487,7 @@
     align-items: center;
     margin-bottom: 10px;
 }
-.info .boxinfo div span{
+.info .boxinfo span{
     min-width: 40px;
     height: 40px;
     color: white;
@@ -490,11 +499,11 @@
     border-radius: 50%;
     margin-right: 15px;
 }
-.info .boxinfo div p{
+.info .boxinfo h6{
     color: white;
     font-size: 15px;
 }
-.info .boxinfo div a{
+.info .boxinfo .e{
     color: white;
     text-decoration: none;
 }
@@ -502,15 +511,15 @@
     margin-top: 30px;
     display:flex
 }
-.sosmed li{
+.sosmed .try{
     margin-right: 15px; 
 }
-.sosmed li a{
+.sosmed .try .e{
     color: white; 
     font-size: 24px;
     color: lightgray;
 }
-.sosmed li a:hover{
+.sosmed .try .e:hover{
     color: white; 
 }
 .google{
@@ -521,11 +530,6 @@
     height: 100%;
 }
 
-.contractus-containe{
-    grid-row-start: 160;
-    grid-column-start: 48;
-    grid-column-end: 114
-}
 @media only screen and (min-width:641px){
 *{
     font-family: arial;
