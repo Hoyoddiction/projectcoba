@@ -1314,4 +1314,8 @@
         min-height: 300px;
         padding: 0;
     }
-
+    .contractus-containe{
+    grid-row-start: 160;
+    grid-column-start: 48;
+    grid-column-end: 114
+    }
