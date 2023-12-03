@@ -4,13 +4,7 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-.body{
-    width: 100%;
-    background:linear-gradient(90deg,darkolivegreen,rgb(214, 240, 171));
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
 .container2{
     width: 80%;
     background-color: white;
